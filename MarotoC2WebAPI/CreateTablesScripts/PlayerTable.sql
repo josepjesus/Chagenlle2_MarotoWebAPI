@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Player]
+(
+	[Id] NVARCHAR (256) NOT NULL PRIMARY KEY,
+	[Nickname] NVARCHAR (256) NOT NULL, 
+    [Date] NVARCHAR (128) NOT NULL
+)
